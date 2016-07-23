@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68D988A71D43AF7700728C58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988A61D43AF7700728C58 /* main.m */; };
+		68D988AA1D43AF7700728C58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988A91D43AF7700728C58 /* AppDelegate.m */; };
+		68D988AD1D43AF7700728C58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988AC1D43AF7700728C58 /* ViewController.m */; };
+		68D988B01D43AF7700728C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D988AE1D43AF7700728C58 /* Main.storyboard */; };
+		68D988B21D43AF7700728C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D988B11D43AF7700728C58 /* Assets.xcassets */; };
+		68D988B51D43AF7700728C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D988B31D43AF7700728C58 /* LaunchScreen.storyboard */; };
+		68D988D21D43B0CA00728C58 /* HLJTab+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988BE1D43B0CA00728C58 /* HLJTab+ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68D988D31D43B0CA00728C58 /* HLJTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988C01D43B0CA00728C58 /* HLJTab.m */; settings = {ASSET_TAGS = (); }; };
+		68D988D41D43B0CA00728C58 /* HLJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988C21D43B0CA00728C58 /* HLJTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		68D988D51D43B0CA00728C58 /* HLJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988C41D43B0CA00728C58 /* HLJTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68D988D61D43B0CA00728C58 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988C71D43B0CA00728C58 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68D988D71D43B0CA00728C58 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988C91D43B0CA00728C58 /* FifthViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68D988D81D43B0CA00728C58 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988CB1D43B0CA00728C58 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68D988D91D43B0CA00728C58 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988CD1D43B0CA00728C58 /* FourthViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68D988DA1D43B0CA00728C58 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988CF1D43B0CA00728C58 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68D988DB1D43B0CA00728C58 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988D11D43B0CA00728C58 /* ThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68D988DE1D43B0EF00728C58 /* PushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988DD1D43B0EF00728C58 /* PushManager.m */; settings = {ASSET_TAGS = (); }; };
+		68D988E21D43B26D00728C58 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D988E11D43B26D00728C58 /* UIImage+Color.m */; settings = {ASSET_TAGS = (); }; };
+		68D988F51D43B49900728C58 /* classification@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988E41D43B49900728C58 /* classification@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D988F61D43B49900728C58 /* classification@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988E51D43B49900728C58 /* classification@3x.png */; settings = {ASSET_TAGS = (); }; };
+		68D988F71D43B49900728C58 /* classification_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988E61D43B49900728C58 /* classification_sel@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D988F81D43B49900728C58 /* classification_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988E71D43B49900728C58 /* classification_sel@3x.png */; settings = {ASSET_TAGS = (); }; };
+		68D988F91D43B49900728C58 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988E81D43B49900728C58 /* home@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D988FA1D43B49900728C58 /* home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988E91D43B49900728C58 /* home@3x.png */; settings = {ASSET_TAGS = (); }; };
+		68D988FB1D43B49900728C58 /* home_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988EA1D43B49900728C58 /* home_sel@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D988FC1D43B49900728C58 /* home_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988EB1D43B49900728C58 /* home_sel@3x.png */; settings = {ASSET_TAGS = (); }; };
+		68D988FD1D43B49900728C58 /* me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988EC1D43B49900728C58 /* me@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D988FE1D43B49900728C58 /* me@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988ED1D43B49900728C58 /* me@3x.png */; settings = {ASSET_TAGS = (); }; };
+		68D988FF1D43B49900728C58 /* me_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988EE1D43B49900728C58 /* me_sel@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D989001D43B49900728C58 /* me_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988EF1D43B49900728C58 /* me_sel@3x.png */; settings = {ASSET_TAGS = (); }; };
+		68D989011D43B49900728C58 /* order@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988F01D43B49900728C58 /* order@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D989021D43B49900728C58 /* order@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988F11D43B49900728C58 /* order@3x.png */; settings = {ASSET_TAGS = (); }; };
+		68D989031D43B49900728C58 /* order_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988F21D43B49900728C58 /* order_sel@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D989041D43B49900728C58 /* order_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988F31D43B49900728C58 /* order_sel@3x.png */; settings = {ASSET_TAGS = (); }; };
+		68D989051D43B49900728C58 /* tabbarBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D988F41D43B49900728C58 /* tabbarBg.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68D988A21D43AF7700728C58 /* HLJTabBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLJTabBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D988A61D43AF7700728C58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68D988A81D43AF7700728C58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68D988A91D43AF7700728C58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68D988AB1D43AF7700728C58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68D988AC1D43AF7700728C58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68D988AF1D43AF7700728C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68D988B11D43AF7700728C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68D988B41D43AF7700728C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68D988B61D43AF7700728C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D988BD1D43B0CA00728C58 /* HLJTab+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HLJTab+ViewController.h"; sourceTree = "<group>"; };
+		68D988BE1D43B0CA00728C58 /* HLJTab+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HLJTab+ViewController.m"; sourceTree = "<group>"; };
+		68D988BF1D43B0CA00728C58 /* HLJTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJTab.h; sourceTree = "<group>"; };
+		68D988C01D43B0CA00728C58 /* HLJTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJTab.m; sourceTree = "<group>"; };
+		68D988C11D43B0CA00728C58 /* HLJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJTabBar.h; sourceTree = "<group>"; };
+		68D988C21D43B0CA00728C58 /* HLJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJTabBar.m; sourceTree = "<group>"; };
+		68D988C31D43B0CA00728C58 /* HLJTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJTabBarViewController.h; sourceTree = "<group>"; };
+		68D988C41D43B0CA00728C58 /* HLJTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJTabBarViewController.m; sourceTree = "<group>"; };
+		68D988C61D43B0CA00728C58 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		68D988C71D43B0CA00728C58 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		68D988C81D43B0CA00728C58 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		68D988C91D43B0CA00728C58 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		68D988CA1D43B0CA00728C58 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		68D988CB1D43B0CA00728C58 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		68D988CC1D43B0CA00728C58 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		68D988CD1D43B0CA00728C58 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		68D988CE1D43B0CA00728C58 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		68D988CF1D43B0CA00728C58 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		68D988D01D43B0CA00728C58 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		68D988D11D43B0CA00728C58 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		68D988DC1D43B0EF00728C58 /* PushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushManager.h; sourceTree = "<group>"; };
+		68D988DD1D43B0EF00728C58 /* PushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushManager.m; sourceTree = "<group>"; };
+		68D988E01D43B26D00728C58 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		68D988E11D43B26D00728C58 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		68D988E41D43B49900728C58 /* classification@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classification@2x.png"; sourceTree = "<group>"; };
+		68D988E51D43B49900728C58 /* classification@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classification@3x.png"; sourceTree = "<group>"; };
+		68D988E61D43B49900728C58 /* classification_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classification_sel@2x.png"; sourceTree = "<group>"; };
+		68D988E71D43B49900728C58 /* classification_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classification_sel@3x.png"; sourceTree = "<group>"; };
+		68D988E81D43B49900728C58 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		68D988E91D43B49900728C58 /* home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@3x.png"; sourceTree = "<group>"; };
+		68D988EA1D43B49900728C58 /* home_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_sel@2x.png"; sourceTree = "<group>"; };
+		68D988EB1D43B49900728C58 /* home_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_sel@3x.png"; sourceTree = "<group>"; };
+		68D988EC1D43B49900728C58 /* me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@2x.png"; sourceTree = "<group>"; };
+		68D988ED1D43B49900728C58 /* me@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@3x.png"; sourceTree = "<group>"; };
+		68D988EE1D43B49900728C58 /* me_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_sel@2x.png"; sourceTree = "<group>"; };
+		68D988EF1D43B49900728C58 /* me_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_sel@3x.png"; sourceTree = "<group>"; };
+		68D988F01D43B49900728C58 /* order@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order@2x.png"; sourceTree = "<group>"; };
+		68D988F11D43B49900728C58 /* order@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order@3x.png"; sourceTree = "<group>"; };
+		68D988F21D43B49900728C58 /* order_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order_sel@2x.png"; sourceTree = "<group>"; };
+		68D988F31D43B49900728C58 /* order_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order_sel@3x.png"; sourceTree = "<group>"; };
+		68D988F41D43B49900728C58 /* tabbarBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbarBg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68D9889F1D43AF7700728C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68D988991D43AF7700728C58 = {
+			isa = PBXGroup;
+			children = (
+				68D988A41D43AF7700728C58 /* HLJTabBarApp */,
+				68D988A31D43AF7700728C58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68D988A31D43AF7700728C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68D988A21D43AF7700728C58 /* HLJTabBarApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68D988A41D43AF7700728C58 /* HLJTabBarApp */ = {
+			isa = PBXGroup;
+			children = (
+				68D988A81D43AF7700728C58 /* AppDelegate.h */,
+				68D988A91D43AF7700728C58 /* AppDelegate.m */,
+				68D988AB1D43AF7700728C58 /* ViewController.h */,
+				68D988AC1D43AF7700728C58 /* ViewController.m */,
+				68D988DC1D43B0EF00728C58 /* PushManager.h */,
+				68D988DD1D43B0EF00728C58 /* PushManager.m */,
+				68D988DF1D43B21300728C58 /* Category */,
+				68D988BC1D43B0CA00728C58 /* TabBar */,
+				68D988C51D43B0CA00728C58 /* viewControllers */,
+				68D988E31D43B49900728C58 /* image */,
+				68D988AE1D43AF7700728C58 /* Main.storyboard */,
+				68D988B11D43AF7700728C58 /* Assets.xcassets */,
+				68D988B31D43AF7700728C58 /* LaunchScreen.storyboard */,
+				68D988B61D43AF7700728C58 /* Info.plist */,
+				68D988A51D43AF7700728C58 /* Supporting Files */,
+			);
+			path = HLJTabBarApp;
+			sourceTree = "<group>";
+		};
+		68D988A51D43AF7700728C58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68D988A61D43AF7700728C58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68D988BC1D43B0CA00728C58 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				68D988BD1D43B0CA00728C58 /* HLJTab+ViewController.h */,
+				68D988BE1D43B0CA00728C58 /* HLJTab+ViewController.m */,
+				68D988BF1D43B0CA00728C58 /* HLJTab.h */,
+				68D988C01D43B0CA00728C58 /* HLJTab.m */,
+				68D988C11D43B0CA00728C58 /* HLJTabBar.h */,
+				68D988C21D43B0CA00728C58 /* HLJTabBar.m */,
+				68D988C31D43B0CA00728C58 /* HLJTabBarViewController.h */,
+				68D988C41D43B0CA00728C58 /* HLJTabBarViewController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		68D988C51D43B0CA00728C58 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68D988C61D43B0CA00728C58 /* BaseViewController.h */,
+				68D988C71D43B0CA00728C58 /* BaseViewController.m */,
+				68D988C81D43B0CA00728C58 /* FifthViewController.h */,
+				68D988C91D43B0CA00728C58 /* FifthViewController.m */,
+				68D988CA1D43B0CA00728C58 /* FirstViewController.h */,
+				68D988CB1D43B0CA00728C58 /* FirstViewController.m */,
+				68D988CC1D43B0CA00728C58 /* FourthViewController.h */,
+				68D988CD1D43B0CA00728C58 /* FourthViewController.m */,
+				68D988CE1D43B0CA00728C58 /* SecondViewController.h */,
+				68D988CF1D43B0CA00728C58 /* SecondViewController.m */,
+				68D988D01D43B0CA00728C58 /* ThirdViewController.h */,
+				68D988D11D43B0CA00728C58 /* ThirdViewController.m */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		68D988DF1D43B21300728C58 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				68D988E01D43B26D00728C58 /* UIImage+Color.h */,
+				68D988E11D43B26D00728C58 /* UIImage+Color.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		68D988E31D43B49900728C58 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				68D988E41D43B49900728C58 /* classification@2x.png */,
+				68D988E51D43B49900728C58 /* classification@3x.png */,
+				68D988E61D43B49900728C58 /* classification_sel@2x.png */,
+				68D988E71D43B49900728C58 /* classification_sel@3x.png */,
+				68D988E81D43B49900728C58 /* home@2x.png */,
+				68D988E91D43B49900728C58 /* home@3x.png */,
+				68D988EA1D43B49900728C58 /* home_sel@2x.png */,
+				68D988EB1D43B49900728C58 /* home_sel@3x.png */,
+				68D988EC1D43B49900728C58 /* me@2x.png */,
+				68D988ED1D43B49900728C58 /* me@3x.png */,
+				68D988EE1D43B49900728C58 /* me_sel@2x.png */,
+				68D988EF1D43B49900728C58 /* me_sel@3x.png */,
+				68D988F01D43B49900728C58 /* order@2x.png */,
+				68D988F11D43B49900728C58 /* order@3x.png */,
+				68D988F21D43B49900728C58 /* order_sel@2x.png */,
+				68D988F31D43B49900728C58 /* order_sel@3x.png */,
+				68D988F41D43B49900728C58 /* tabbarBg.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68D988A11D43AF7700728C58 /* HLJTabBarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D988B91D43AF7700728C58 /* Build configuration list for PBXNativeTarget "HLJTabBarApp" */;
+			buildPhases = (
+				68D9889E1D43AF7700728C58 /* Sources */,
+				68D9889F1D43AF7700728C58 /* Frameworks */,
+				68D988A01D43AF7700728C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLJTabBarApp;
+			productName = HLJTabBarApp;
+			productReference = 68D988A21D43AF7700728C58 /* HLJTabBarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68D9889A1D43AF7700728C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zhaoxuezhi;
+				TargetAttributes = {
+					68D988A11D43AF7700728C58 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = V57CYFJ7UH;
+					};
+				};
+			};
+			buildConfigurationList = 68D9889D1D43AF7700728C58 /* Build configuration list for PBXProject "HLJTabBarApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68D988991D43AF7700728C58;
+			productRefGroup = 68D988A31D43AF7700728C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68D988A11D43AF7700728C58 /* HLJTabBarApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68D988A01D43AF7700728C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D988FD1D43B49900728C58 /* me@2x.png in Resources */,
+				68D988B51D43AF7700728C58 /* LaunchScreen.storyboard in Resources */,
+				68D988F91D43B49900728C58 /* home@2x.png in Resources */,
+				68D989001D43B49900728C58 /* me_sel@3x.png in Resources */,
+				68D988FA1D43B49900728C58 /* home@3x.png in Resources */,
+				68D989021D43B49900728C58 /* order@3x.png in Resources */,
+				68D989011D43B49900728C58 /* order@2x.png in Resources */,
+				68D988F61D43B49900728C58 /* classification@3x.png in Resources */,
+				68D989041D43B49900728C58 /* order_sel@3x.png in Resources */,
+				68D988FE1D43B49900728C58 /* me@3x.png in Resources */,
+				68D988FB1D43B49900728C58 /* home_sel@2x.png in Resources */,
+				68D989031D43B49900728C58 /* order_sel@2x.png in Resources */,
+				68D988B21D43AF7700728C58 /* Assets.xcassets in Resources */,
+				68D988F51D43B49900728C58 /* classification@2x.png in Resources */,
+				68D988B01D43AF7700728C58 /* Main.storyboard in Resources */,
+				68D988F71D43B49900728C58 /* classification_sel@2x.png in Resources */,
+				68D989051D43B49900728C58 /* tabbarBg.png in Resources */,
+				68D988F81D43B49900728C58 /* classification_sel@3x.png in Resources */,
+				68D988FC1D43B49900728C58 /* home_sel@3x.png in Resources */,
+				68D988FF1D43B49900728C58 /* me_sel@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68D9889E1D43AF7700728C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D988DA1D43B0CA00728C58 /* SecondViewController.m in Sources */,
+				68D988DB1D43B0CA00728C58 /* ThirdViewController.m in Sources */,
+				68D988D71D43B0CA00728C58 /* FifthViewController.m in Sources */,
+				68D988AD1D43AF7700728C58 /* ViewController.m in Sources */,
+				68D988D61D43B0CA00728C58 /* BaseViewController.m in Sources */,
+				68D988D51D43B0CA00728C58 /* HLJTabBarViewController.m in Sources */,
+				68D988D21D43B0CA00728C58 /* HLJTab+ViewController.m in Sources */,
+				68D988DE1D43B0EF00728C58 /* PushManager.m in Sources */,
+				68D988D91D43B0CA00728C58 /* FourthViewController.m in Sources */,
+				68D988D41D43B0CA00728C58 /* HLJTabBar.m in Sources */,
+				68D988D31D43B0CA00728C58 /* HLJTab.m in Sources */,
+				68D988D81D43B0CA00728C58 /* FirstViewController.m in Sources */,
+				68D988E21D43B26D00728C58 /* UIImage+Color.m in Sources */,
+				68D988AA1D43AF7700728C58 /* AppDelegate.m in Sources */,
+				68D988A71D43AF7700728C58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68D988AE1D43AF7700728C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D988AF1D43AF7700728C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68D988B31D43AF7700728C58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D988B41D43AF7700728C58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68D988B71D43AF7700728C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68D988B81D43AF7700728C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68D988BA1D43AF7700728C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLJTabBarApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helijia.HLJTabBarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68D988BB1D43AF7700728C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLJTabBarApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helijia.HLJTabBarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68D9889D1D43AF7700728C58 /* Build configuration list for PBXProject "HLJTabBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D988B71D43AF7700728C58 /* Debug */,
+				68D988B81D43AF7700728C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D988B91D43AF7700728C58 /* Build configuration list for PBXNativeTarget "HLJTabBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D988BA1D43AF7700728C58 /* Debug */,
+				68D988BB1D43AF7700728C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68D9889A1D43AF7700728C58 /* Project object */;
+}
